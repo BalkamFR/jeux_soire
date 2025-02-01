@@ -1,15 +1,51 @@
-# Jeux de Soirée
+# ShemaSite
 
-Application web de gestion de jeux de soirée avec système de score et gestion de boissons.
+Ce site a été généré en PHP en suivant une architecture MVC simplifiée.
 
-## Installation
-1. Cloner le repository
-2. Configurer la base de données
-3. Lancer l'application
-
-## Structure
-- /config : Configuration de l'application
-- /core : Fonctionnalités principales
-- /controllers : Contrôleurs de l'application
-- /models : Modèles de données
-- /views : Vues de l'application
+## Structure du projet
+├── .htaccess  
+├── README.md  
+├── index.php  
+├── config/  
+│   ├── config.php  
+│   └── seo.php  
+├── core/  
+│   ├── Logger.php  
+│   ├── SecurityMiddleware.php  
+│   └── VisitTracker.php  
+├── controllers/  
+│   ├── HomeController.php  
+│   └── UserController.php  
+├── models/  
+│   ├── UserModel.php  
+│   ├── GameModel.php  
+│   ├── ScoreModel.php  
+│   ├── DrinkModel.php  
+│   ├── CreateGameModel.php  
+│   └── SessionModel.php  
+├── views/  
+│   ├── 404.php  
+│   ├── header.php  
+│   ├── home.php  
+│   ├── footer.php  
+│   └── admin/  
+│       ├── contacts/  
+│       │   ├── index.php  
+│       │   └── voir.php  
+│       ├── dashboard.php  
+│       ├── login.php  
+│       ├── security.php  
+│       └── users.php  
+├── assets/  
+│   ├── css/  
+│   │   ├── admin.css  
+│   │   ├── responsive.css  
+│   │   └── style.css  
+│   ├── js/  
+│   │   ├── animation.js  
+│   │   └── script.js  
+│   └── img/  
+│       ├── logo.png  
+│       ├── svg/  
+│       └── couverture_jeux/  
+└── .gitignore 

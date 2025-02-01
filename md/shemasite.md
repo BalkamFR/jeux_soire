@@ -1,5 +1,4 @@
-
-├── .htaccess
+ ├── .htaccess
 ├── README.md
 ├── index.php
 ├── config/
@@ -9,17 +8,16 @@
 │ ├── Logger.php
 │ ├── SecurityMiddleware.php
 │ └── VisitTracker.php
-├── controllers/
-│ ├── AccueilController.php
+├── controllers/ 
 │ ├── HomeController.php
 │ └── UserController.php
 ├── models/
-│ ├── AdminModel.php
-│ ├── ContactModel.php
-│ ├── MessageModel.php
-│ ├── PortfolioModel.php
-│ ├── ServiceModel.php
-│ └── UserModel.php
+│ ├── UserModel.php
+│ ├── GameModel.php
+│ ├── ScoreModel.php
+│ ├── DrinkModel.php
+│ ├── CreateGameModel.php
+│ └── SessionModel.php
 ├── views/
 │ ├── 404.php
 │ ├── footer.php
@@ -44,7 +42,7 @@
 │ │ ├── script.js
 │ ├── img/
 │ │ ├── logo.png
-│ │ ├── svg/│
+│ │ ├── svg/
 │ │ └── couverture_jeux/
 ├── site.webmanifest
 └── .gitignore 
